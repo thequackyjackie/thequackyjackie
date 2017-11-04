@@ -1,10 +1,79 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Expanding Your Horizon</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <link rel = "stylesheet" href = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity = "sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin = "anonymous">
+        <link rel = "stylesheet" href = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity = "sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin = "anonymous">
+        <script src = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity = "sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin = "anonymous"></script>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1><center></center>My Website</h1>
-        <br>
-        <p> This is my website</p>
+        <nav class="navbar navbar-default navbar navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-header">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                  <a class="navbar-brand" href="/">Expand Your Horizon</a>
+                </div>
+                <div class="collapse navbar-collapse" id="main-header">
+                  <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#about-me">About me</a></li>
+                    <li><a href="#hobbies">My hobbies</a></li>
+                    <li><a href="#interesting">My Interesting Sites</a></li>
+                  </ul>
+                </div><!--/.navbar-collapse -->
+            </div>
+        </nav>
+        
+        <div class="jumbotron">
+            <div class="title">
+                <h1>Welcome to Jacqueline's page</h1>
+            </div>
+        </div>
+        <div class="container" id="about-me">
+            <h1>About me</h1>
+            <hr>
+            <p>Hey, I'm Jacqueline I am a student at Sequoia Middle School</p>
+        </div>
+        <div class="container" id="hobbies">
+            <h1>My Hobbies</h1>
+            <hr>
+            <p>I love sewing and drawing.</p>
+        </div>
+        <div class="container" id="interesting">
+            <h1>My interesting sites</h1>
+            <hr>
+            <div class="row">
+                <div class="col-xs-6 col-md-3">
+                    <a href="#" class="thumbnail">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCmP8_P-ZwtZEGjE6eNNBskXRm9qcecjlGh1GlQpkRlykfM8Or" alt="Instagram image">
+                        <p class="caption">Instagram</p>
+                    </a>
+                </div>
+                <div class="col-xs-6 col-md-3">
+                    <a href="#" class="thumbnail">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW417ARAZksX0rlgko2sr2pPvGC4dBOVQbnFK59Fr5dQVUdB_z" alt="Facebook image">
+                        <p class="caption">Facebook</p>
+                    </a>
+                </div>
+                <div class="col-xs-6 col-md-3">
+                    <a href="#" class="thumbnail">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlKMnRFq80MIj7k-oRlvEPwUmdQLLNI0rGdpHqdQI1Jhv0fQ7rgw" alt="Musically image">
+                        <p class="caption">Musically</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
     </body>
 </html>
